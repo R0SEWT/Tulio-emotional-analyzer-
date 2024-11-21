@@ -1,0 +1,46 @@
+cuda
+tokenizer_config.json: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 49.0/49.0 [00:00<00:00, 589kB/s]
+vocab.txt: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 996k/996k [00:00<00:00, 3.23MB/s]
+tokenizer.json: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.96M/1.96M [00:00<00:00, 3.77MB/s]
+/home/rosewt/miniconda3/envs/Tulio/lib/python3.10/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Epoch 1/10
+----------
+Train loss 1.0956084410613403 accuracy 0.6043131739334271
+Test loss 0.5940693576540798 accuracy 0.8090625
+Epoch 2/10
+----------
+Train loss 0.506835731221945 accuracy 0.8436474449132677
+Test loss 0.5686220559873618 accuracy 0.8371875
+Epoch 3/10
+----------
+Train loss 0.39320548786621656 accuracy 0.8802937959056103
+Test loss 0.6092644549271791 accuracy 0.848125
+Epoch 4/10
+----------
+Train loss 0.3105697560331464 accuracy 0.9097515236755743
+Test loss 0.6535275076294783 accuracy 0.8512500000000001
+Epoch 5/10
+----------
+Train loss 0.2542518584950449 accuracy 0.9304578840443819
+Test loss 0.7425176433795423 accuracy 0.85
+Epoch 6/10
+----------
+Train loss 0.19831982643441734 accuracy 0.9478824816377559
+Test loss 0.8106701270040503 accuracy 0.8496875
+Epoch 7/10
+----------
+Train loss 0.15529197538366135 accuracy 0.960618846694796
+Test loss 0.8843999806223656 accuracy 0.8496875
+Epoch 8/10
+----------
+Train loss 0.1147603135938607 accuracy 0.9714799187373027
+Test loss 0.930251889869578 accuracy 0.8546875
+Epoch 9/10
+----------
+Train loss 0.08657233851369711 accuracy 0.981090795436787
+Test loss 0.9593502323465873 accuracy 0.8546875
+Epoch 10/10
+----------
+Train loss 0.06986093886594973 accuracy 0.9844506954211596
+Test loss 0.9753084232904439 accuracy 0.8584375
